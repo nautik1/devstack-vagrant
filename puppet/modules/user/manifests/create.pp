@@ -30,6 +30,7 @@ define user::create (
     gid => $user,
     password => $pass,
     home => $home,
+    managehome => true,
     groups => $extra_groups,
     shell => '/bin/bash'
   } ->
